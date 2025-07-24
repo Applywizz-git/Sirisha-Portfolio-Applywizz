@@ -182,8 +182,17 @@ export const Footer2 = () => {
             <div className="footer-widget widget_logo text-center text-md-start wow fadeInUp delay-0-2s">
               <div className="footer-logo">
                 <Link legacyBehavior href="/">
-                  <a>
-                    <img src="assets/images/logos/logo.png" alt="Logo" />
+                  <a
+      style={{
+        fontSize: "32px",
+        fontWeight: "600",
+        color: "#d5ff00", // neon yellow
+        textDecoration: "none",
+        fontFamily: "'Poppins', sans-serif", // or match site font
+      }}
+    >
+                    {/* <img src="assets/images/logos/logo.png" alt="Logo" /> */}
+                    SIRISHA
                   </a>
                 </Link>
               </div>
@@ -269,7 +278,7 @@ export const Footer2 = () => {
             <p>
               Copyright @{date},{" "}
               <Link legacyBehavior href="/">
-                Noxfolio
+                SIRISHA
               </Link>{" "}
               All Rights Reserved
             </p>

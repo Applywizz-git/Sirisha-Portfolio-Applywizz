@@ -70,12 +70,21 @@ const Header1 = ({ onePageMenu }) => {
                 <div className="navbar-header">
                   <div className="mobile-logo my-15">
                     <Link legacyBehavior href="/">
-                      <a>
-                        <img
+                      <a
+      style={{
+        fontSize: "32px",
+        fontWeight: "600",
+        color: "#d5ff00", // neon yellow
+        textDecoration: "none",
+        fontFamily: "'Poppins', sans-serif", // or match site font
+      }}
+    >
+                        {/* <img
                           src="assets/images/logos/logo.png"
                           alt="Logo"
                           title="Logo"
-                        />
+                        /> */}
+                        SIRISHA
                       </a>
                     </Link>
                   </div>
@@ -142,12 +151,21 @@ const Header2 = ({ onePageMenu }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link legacyBehavior href="/">
-                  <a>
-                    <img
+                  <a
+      style={{
+        fontSize: "32px",
+        fontWeight: "600",
+        color: "#d5ff00", // neon yellow
+        textDecoration: "none",
+        fontFamily: "'Poppins', sans-serif", // or match site font
+      }}
+    >
+                    {/* <img
                       src="assets/images/logos/logo.png"
                       alt="Logo"
                       title="Logo"
-                    />
+                    /> */}
+                    SIRISHA
                   </a>
                 </Link>
               </div>
@@ -158,12 +176,21 @@ const Header2 = ({ onePageMenu }) => {
                 <div className="navbar-header">
                   <div className="mobile-logo my-15">
                     <Link legacyBehavior href="/">
-                      <a>
-                        <img
+                      <a
+      style={{
+        fontSize: "32px",
+        fontWeight: "600",
+        color: "#d5ff00", // neon yellow
+        textDecoration: "none",
+        fontFamily: "'Poppins', sans-serif", // or match site font
+      }}
+    >
+                        {/* <img
                           src="assets/images/logos/logo.png"
                           alt="Logo"
                           title="Logo"
-                        />
+                        /> */}
+                        SIRISHA
                       </a>
                     </Link>
                   </div>
@@ -222,17 +249,17 @@ const Header2 = ({ onePageMenu }) => {
             {/* Menu Button */}
             <div className="menu-btns">
               {/* menu sidbar */}
-              <div className="menu-sidebar d-none d-lg-block">
+              {/* <div className="menu-sidebar d-none d-lg-block">
                 <button onClick={() => toggleSidebar()}>
                   <img
                     src="assets/images/shape/sidebar-tottler-white.svg"
                     alt="Toggler"
                   />
                 </button>
-              </div>
-              <Link legacyBehavior href="contact">
+              </div> */}
+              {/* <Link legacyBehavior href="contact">
                 <a className="theme-btn"> let,s talk</a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
